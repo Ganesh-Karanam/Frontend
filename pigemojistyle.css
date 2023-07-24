@@ -1,0 +1,99 @@
+body
+{
+    box-sizing: border-box;
+}
+.head
+{
+    height: 200px;
+    width: 200px;
+    margin: 100px auto;
+    background-color:#FFC0CB ;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: relative;
+}
+.ears
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#FFC0CB ;
+    border: 5px solid black;
+    position: absolute;
+    z-index: -1;
+    top:-10px;
+}
+.left-ear
+{
+    left: 10px;
+}
+.right-ear
+{
+    right: 10px;
+}
+.eyes
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:white;
+    border: 2px solid black;
+    position: absolute;
+    top: 40px;
+}
+.left-eye
+{
+    left: 30px;
+}
+.right-eye
+{
+    right: 30px;
+}
+.pupil
+{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:black;
+    border: 2px solid black;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nose
+{
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 35%;
+    background-color: #F57187;
+    position: absolute;
+    /* top: 0; */
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nostrils
+{
+    width: 25%;
+    height: 50%;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.left-nostril
+{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.right-nostril
+{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
