@@ -1,0 +1,55 @@
+.wrapper {
+    background-color: #02203C;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 200px; */
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 100px);
+    transform: translate(-50%, -50%);
+  }
+  
+  .center {
+    width: 10px;
+    height: 10px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .firstring,
+  .secondring {
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+  }
+  
+  .firstring {
+    transform: rotate(45deg);
+  }
+  
+  .secondring {
+    transform: rotate(-45deg);
+  }
+  
+  .text {
+    color: white;
+    font-size: 48px;
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 100px); /* Add 50px to the left position to create a horizontal gap with the logo */
+    transform: translate(-50%, -50%);
+  }
+  
